@@ -1,0 +1,14 @@
+{
+    "contract_id": "bodhi.{repo_name}.v1",
+    "identity": "100048777766367/{repo_name}",
+    "genesis_root": "100048777766367/contract",
+    "card_archetype": "{card_archetype}",
+    "clan": "{clan_name}",
+    "role": "{role_name}",
+    "network_partners": {
+        "genesis_court": "100048777766367/contract",
+        "vault": "100048777766367/storage",
+        "dissector": "100048777766367/open"
+    },
+    "io_specification": "I/O ({role_name})"
+}

@@ -1,114 +1,56 @@
 {
-    "version": "bodhi.blueprint.matrix.v1",
-    "updated_at": "2026-10-23",
+    "version": "bodhi.blueprint.matrix.v2",
+    "total_files": 10,
     "items": {
-        "contract.json": {
-            "tags": [
-                "#HIẾN_ƯỚC_GỐC",
-                "#PHÁP_LÝ_NÚT_MẠNG"
-            ],
-            "shelf": "SHELF_CONTRACTS",
-            "role": "Định danh căn cước, Thẻ bài TCG, Phân vai và trỏ về Cụ Tổ 100048777766367/contract",
-            "mutability": "IMMUTABLE_LOCKED",
-            "qc_gate": "MUST_CONTAIN_GENESIS_ROOT_AND_ARCHETYPE"
-        },
-        "synapses/bio_passport.json": {
-            "tags": [
-                "#HỘ_CHIẾU_DÒNG_HỌ",
-                "#CĂN_CƯỚC_PHẢ_HỆ"
-            ],
-            "shelf": "SHELF_CONTRACTS",
-            "role": "Lưu tọa độ Tam Đoạn [GỐC]-[NHÁNH]-[ĐỜI.HẠT] và tem bảo chứng sinh học",
-            "mutability": "IMMUTABLE_LOCKED",
-            "qc_gate": "MUST_MATCH_CANONICAL_TAM_DOAN_ID"
-        },
-        "synapses/state.json": {
-            "tags": [
-                "#SỔ_CÁI_KỶ_NGUYÊN",
-                "#NHỊP_TIM_LƯỢNG_TỬ"
-            ],
-            "shelf": "SHELF_SYNAPSES",
-            "role": "Ghi nhận số thứ tự chu kỳ (epoch), timestamp và mã băm lượng tử CID",
-            "mutability": "DYNAMIC_PERIODIC",
-            "qc_gate": "MUST_UPDATE_EPOCH_AND_VALID_CID"
-        },
-        "synapse_forward.json": {
-            "tags": [
-                "#SÓNG_GIAO_CẢM",
-                "#XUNG_TÍN_HIỆU_I_O"
-            ],
-            "shelf": "SHELF_SYNAPSES",
-            "role": "Cổng phát xung giao tiếp ngoại vi, kết nối thần kinh với các node lân cận",
-            "mutability": "DYNAMIC_PERIODIC",
-            "qc_gate": "MUST_EMIT_VALID_SIGNAL_PAYLOAD"
-        },
-        "engine.py": {
-            "alias_patterns": [
-                "*_engine.py",
-                "kernel.py",
-                "engine.py"
-            ],
-            "tags": [
-                "#HẠT_NHÂN_ĐỘNG_CƠ",
-                "#TRÁI_TIM_TỰ_TRỊ"
-            ],
-            "shelf": "SHELF_ENGINE",
-            "role": "Chứa toán tử đại số lượng tử XOR A ^ B ^ B == A và vòng lặp tự hành",
-            "mutability": "EVOLUTIONARY_SEED",
-            "qc_gate": "MUST_PASS_PYTHON_B_SANDBOX_EXIT_ZERO"
-        },
         ".github/workflows/node.yml": {
-            "alias_patterns": [
-                ".github/workflows/*.yml"
-            ],
-            "tags": [
-                "#TRỤC_CI_CD_TỰ_HÀNH",
-                "#GIT_BỌC_THÉP_CHỐNG_128"
-            ],
+            "tag": "#TRỤC_CI_CD_TỰ_HÀNH",
             "shelf": "SHELF_INFRA",
-            "role": "Python 3.14 & Setup v7, cron 4h, fetch/reset bọc thép chống lỗi 128",
-            "mutability": "ARMORED_LOCKED",
-            "qc_gate": "COMMAND_MUST_MATCH_ACTUAL_ENGINE_FILE"
-        },
-        ".github/dependabot.yml": {
-            "tags": [
-                "#BẢO_TRÌ_TỰ_ĐỘNG",
-                "#VÁ_LỖ_HỔNG_HÀNG_TUẦN"
-            ],
-            "shelf": "SHELF_INFRA",
-            "role": "Tự động rà soát và vá lỗ hổng bảo mật định kỳ cho Actions và Docker",
-            "mutability": "IMMUTABLE_LOCKED",
-            "qc_gate": "VALID_DEPENDABOT_V2_SCHEMA"
+            "mutability": "ARMORED_LOCKED"
         },
         "Dockerfile": {
-            "tags": [
-                "#MÔI_TRƯỜNG_CONTAINER",
-                "#MẪU_SỐ_CHUNG_3_14"
-            ],
+            "tag": "#MÔI_TRƯỜNG_CONTAINER_3_14",
             "shelf": "SHELF_INFRA",
-            "role": "Đóng gói môi trường thực thi độc lập python:3.14-slim, khóa rác bytecode",
-            "mutability": "IMMUTABLE_LOCKED",
-            "qc_gate": "MUST_CONTAIN_PYTHONDONTWRITEBYTECODE_1"
+            "mutability": "IMMUTABLE_LOCKED"
+        },
+        ".github/dependabot.yml": {
+            "tag": "#BẢO_TRÌ_TỰ_ĐỘNG",
+            "shelf": "SHELF_INFRA",
+            "mutability": "IMMUTABLE_LOCKED"
+        },
+        "contract.json": {
+            "tag": "#HIẾN_ƯỚC_GỐC_PHÁP_LÝ",
+            "shelf": "SHELF_CONTRACTS",
+            "mutability": "IMMUTABLE_LOCKED"
+        },
+        "{repo}_engine.py": {
+            "tag": "#HẠT_NHÂN_ĐỘNG_CƠ_XOR",
+            "shelf": "SHELF_ENGINE",
+            "mutability": "EVOLUTIONARY_SEED"
+        },
+        "synapse_forward.json": {
+            "tag": "#SÓNG_GIAO_CẢM_NGOẠI_VI",
+            "shelf": "SHELF_SYNAPSES",
+            "mutability": "DYNAMIC_PERIODIC"
+        },
+        "synapses/bio_passport.json": {
+            "tag": "#HỘ_CHIẾU_DÒNG_HỌ_TAM_ĐOẠN",
+            "shelf": "SHELF_CONTRACTS",
+            "mutability": "IMMUTABLE_LOCKED"
+        },
+        "synapses/state.json": {
+            "tag": "#SỔ_CÁI_KỶ_NGUYÊN_CID",
+            "shelf": "SHELF_SYNAPSES",
+            "mutability": "DYNAMIC_PERIODIC"
         },
         ".gitignore": {
-            "tags": [
-                "#LÁ_CHẮN_CHỐNG_RÁC",
-                "#POKA_YOKE_BYTECODE"
-            ],
+            "tag": "#LÁ_CHẮN_POKA_YOKE_BYTECODE",
             "shelf": "SHELF_INFRA",
-            "role": "Cấm cửa tuyệt đối mọi file rác __pycache__/, *.pyc, *.pyo, .ipynb_checkpoints/",
-            "mutability": "IMMUTABLE_LOCKED",
-            "qc_gate": "MUST_CONTAIN_PYCACHE_AND_PYC"
+            "mutability": "IMMUTABLE_LOCKED"
         },
         "README.md": {
-            "tags": [
-                "#TUYÊN_NGÔN_SỨ_MỆNH",
-                "#TÀI_LIỆU_BẢO_TÀNG"
-            ],
+            "tag": "#TUYÊN_NGÔN_SỨ_MỆNH_BẢO_TÀNG",
             "shelf": "SHELF_DOCS",
-            "role": "Tuyên ngôn vị thế nút mạng, danh bạ liên kết đối tác và đặc tả kỹ thuật",
-            "mutability": "OPEN_DOCUMENTATION",
-            "qc_gate": "MUST_CONTAIN_NODE_MISSION_STATEMENT"
+            "mutability": "OPEN_DOCUMENTATION"
         }
     }
 }

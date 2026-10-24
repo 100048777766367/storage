@@ -1,0 +1,11 @@
+{
+    "contract": "bodhi.contract.v1",
+    "identity": "100048777766367/{repo_name}",
+    "epoch": 1,
+    "timestamp": 1700000000,
+    "cid": "QUANTUM_CID_HASH_32_BYTES",
+    "proof": "XOR_INVARIANT_VALID",
+    "payload": {
+        "status": "HEALTHY"
+    }
+}

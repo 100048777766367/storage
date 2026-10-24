@@ -1,0 +1,18 @@
+{
+    "stamp_id": "STAMP-{REPO_NAME_UPPER}-CORE-G0",
+    "canonical_id": "{root}-{branch}-g{gen}-{var}",
+    "genesis_root": "100048777766367/contract",
+    "role_description": "{role_description}",
+    "lineage": {
+        "root_ancestor": "{root}",
+        "branch_organ": "{branch}",
+        "generation": "g{gen}",
+        "variant_seed": "#{var}",
+        "dynasty_honor": 10
+    },
+    "invariants": {
+        "algebraic_proof": "XOR_INVARIANT_VALID",
+        "zero_pollution": true,
+        "tam_doan_compliant": true
+    }
+}

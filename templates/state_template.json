@@ -1,0 +1,7 @@
+{
+    "generation_epoch": 1,
+    "last_timestamp": 1700000000,
+    "quantum_cid": "QUANTUM_CID_HASH_32_BYTES",
+    "state_vector_hex": "0xaa55",
+    "status": "SYNCHRONIZED_ALIVE"
+}
