@@ -1,0 +1,27 @@
+{
+    "$schema": "https://bodhi.network/v1/master-blueprint-schema.json",
+    "master_stamp": "STAMP-BLUEPRINT-SOVEREIGN-G2-00",
+    "canonical_id": "blueprint-sovereign-g2-00",
+    "name": "Bản Khuôn Mẫu Nút Mạng Tự Trị 10 Tệp Chuẩn Quốc Tế",
+    "lineage": {
+        "root_ancestor": "contract",
+        "branch": "sovereign-node",
+        "generation": "g2",
+        "variant_seed": "00",
+        "version": "v2.0.0-INVARIANT-ARMORED",
+        "clan": "CONTRACT_LINEAGE",
+        "card_archetype": "ROOT_CONTRACT"
+    },
+    "tags": [
+        "#PHÔI_MẪU_CHUẨN_MỰC_10_TỆP",
+        "#MASTER_BLUEPRINT_G2",
+        "#ARMORED_SOVEREIGN_NODE"
+    ],
+    "invariants": {
+        "genesis_root": "100048777766367/contract",
+        "python_standard": "3.14",
+        "actions_setup": "v7",
+        "algebraic_proof": "XOR_A_B_B_EQ_A",
+        "zero_pollution": true
+    }
+}
