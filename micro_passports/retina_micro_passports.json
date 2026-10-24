@@ -1,50 +1,100 @@
 {
-    "repo_target": "retina",
-    "total_dirs": 5,
-    "total_files": 11,
-    "total_classes": 2,
-    "total_functions": 12,
+    "provenance_header": {
+        "repo_name": "retina",
+        "full_identity": "100048777766367/retina",
+        "canonical_id": "retina-core-g0",
+        "root_ancestor": "retina",
+        "origin_url": "https://github.com/100048777766367/retina"
+    },
+    "language_ecosystem": {
+        "total_files": 11,
+        "total_lines_of_code": 291,
+        "total_size_kb": 10.25,
+        "languages_distribution": {
+            "Dockerfile": {
+                "file_count": 1,
+                "percentage": "9.1%",
+                "total_lines": 12
+            },
+            "Markdown": {
+                "file_count": 1,
+                "percentage": "9.1%",
+                "total_lines": 1
+            },
+            "JSON Data": {
+                "file_count": 3,
+                "percentage": "27.3%",
+                "total_lines": 32
+            },
+            "Python": {
+                "file_count": 5,
+                "percentage": "45.5%",
+                "total_lines": 245
+            },
+            "Khác (Tệp Không Đuôi)": {
+                "file_count": 1,
+                "percentage": "9.1%",
+                "total_lines": 1
+            }
+        },
+        "extensions_census": {
+            ".py": 5,
+            ".json": 3,
+            "dockerfile": 1,
+            ".md": 1,
+            "no_ext": 1
+        }
+    },
+    "tier_summary": {
+        "directories_count": 5,
+        "files_count": 11,
+        "classes_count": 2,
+        "functions_count": 12
+    },
     "tier_2_directories": [
         {
             "canonical_id": "dir-retina-.git-g0",
             "path": ".git",
+            "provenance_repo": "retina",
             "depth": 1,
-            "file_count": 6,
-            "tag": "#KHOANG_.GIT"
+            "file_count": 6
         },
         {
             "canonical_id": "dir-retina-.github-g0",
             "path": ".github",
+            "provenance_repo": "retina",
             "depth": 1,
-            "file_count": 1,
-            "tag": "#KHOANG_.GITHUB"
+            "file_count": 1
         },
         {
             "canonical_id": "dir-retina-cells-g0",
             "path": "cells",
+            "provenance_repo": "retina",
             "depth": 1,
-            "file_count": 1,
-            "tag": "#KHOANG_CELLS"
+            "file_count": 1
         },
         {
             "canonical_id": "dir-retina-synapses-g0",
             "path": "synapses",
+            "provenance_repo": "retina",
             "depth": 1,
-            "file_count": 3,
-            "tag": "#KHOANG_SYNAPSES"
+            "file_count": 3
         },
         {
             "canonical_id": "dir-retina-receptors-g0",
             "path": "receptors",
+            "provenance_repo": "retina",
             "depth": 1,
-            "file_count": 3,
-            "tag": "#KHOANG_RECEPTORS"
+            "file_count": 3
         }
     ],
     "tier_3_files": [
         {
             "canonical_id": "file-retina-Dockerfile-g0",
             "path": "Dockerfile",
+            "provenance_repo": "retina",
+            "language": "Khác",
+            "extension": "no_ext",
             "size_bytes": 199,
             "lines_count": 12,
             "hash": "43bafc002710"
@@ -52,6 +102,9 @@
         {
             "canonical_id": "file-retina-README_md-g0",
             "path": "README.md",
+            "provenance_repo": "retina",
+            "language": "Markdown",
+            "extension": ".md",
             "size_bytes": 8,
             "lines_count": 1,
             "hash": "e44768d8d2cc"
@@ -59,6 +112,9 @@
         {
             "canonical_id": "file-retina-synapse_forward_json-g0",
             "path": "synapse_forward.json",
+            "provenance_repo": "retina",
+            "language": "JSON Data",
+            "extension": ".json",
             "size_bytes": 110,
             "lines_count": 8,
             "hash": "e077f44659b5"
@@ -66,6 +122,9 @@
         {
             "canonical_id": "file-retina-retina_engine_py-g0",
             "path": "retina_engine.py",
+            "provenance_repo": "retina",
+            "language": "Python",
+            "extension": ".py",
             "size_bytes": 2523,
             "lines_count": 66,
             "hash": "bc67ee50ebb3"
@@ -73,6 +132,9 @@
         {
             "canonical_id": "file-retina-cells_conv_cell_py-g0",
             "path": "cells/conv_cell.py",
+            "provenance_repo": "retina",
+            "language": "Python",
+            "extension": ".py",
             "size_bytes": 1975,
             "lines_count": 53,
             "hash": "1b28390cc3dc"
@@ -80,6 +142,9 @@
         {
             "canonical_id": "file-retina-synapses_k_vert_json-g0",
             "path": "synapses/k_vert.json",
+            "provenance_repo": "retina",
+            "language": "JSON Data",
+            "extension": ".json",
             "size_bytes": 194,
             "lines_count": 12,
             "hash": "c413a7f528b7"
@@ -87,6 +152,9 @@
         {
             "canonical_id": "file-retina-synapses__gitkeep-g0",
             "path": "synapses/.gitkeep",
+            "provenance_repo": "retina",
+            "language": "Khác",
+            "extension": "no_ext",
             "size_bytes": 1,
             "lines_count": 1,
             "hash": "01ba4719c80b"
@@ -94,6 +162,9 @@
         {
             "canonical_id": "file-retina-synapses_k_horiz_json-g0",
             "path": "synapses/k_horiz.json",
+            "provenance_repo": "retina",
+            "language": "JSON Data",
+            "extension": ".json",
             "size_bytes": 192,
             "lines_count": 12,
             "hash": "29a468f60dea"
@@ -101,6 +172,9 @@
         {
             "canonical_id": "file-retina-receptors_mesh_receptor_py-g0",
             "path": "receptors/mesh_receptor.py",
+            "provenance_repo": "retina",
+            "language": "Python",
+            "extension": ".py",
             "size_bytes": 3002,
             "lines_count": 60,
             "hash": "285fc11a578e"
@@ -108,6 +182,9 @@
         {
             "canonical_id": "file-retina-receptors_contract_receptor_py-g0",
             "path": "receptors/contract_receptor.py",
+            "provenance_repo": "retina",
+            "language": "Python",
+            "extension": ".py",
             "size_bytes": 1242,
             "lines_count": 38,
             "hash": "2743f768bbdc"
@@ -115,6 +192,9 @@
         {
             "canonical_id": "file-retina-receptors_cascade_receptor_py-g0",
             "path": "receptors/cascade_receptor.py",
+            "provenance_repo": "retina",
+            "language": "Python",
+            "extension": ".py",
             "size_bytes": 1053,
             "lines_count": 28,
             "hash": "9a0ea1a75755"
@@ -124,12 +204,14 @@
         {
             "canonical_id": "class-retina-retina_engine-RetinaEngine",
             "class_name": "RetinaEngine",
+            "provenance_repo": "retina",
             "file": "retina_engine.py",
             "line_start": 6
         },
         {
             "canonical_id": "class-retina-conv_cell-ConvCell",
             "class_name": "ConvCell",
+            "provenance_repo": "retina",
             "file": "cells/conv_cell.py",
             "line_start": 5
         }
@@ -139,6 +221,7 @@
             "canonical_id": "fn-retina-retina_engine-__init__",
             "func_name": "__init__",
             "signature": "(self)",
+            "provenance_repo": "retina",
             "file": "retina_engine.py",
             "line_start": 7,
             "nature": "⚙️ NORMAL"
@@ -147,6 +230,7 @@
             "canonical_id": "fn-retina-retina_engine-see_and_emit",
             "func_name": "see_and_emit",
             "signature": "(self, image)",
+            "provenance_repo": "retina",
             "file": "retina_engine.py",
             "line_start": 13,
             "nature": "⚙️ NORMAL"
@@ -155,6 +239,7 @@
             "canonical_id": "fn-retina-retina_engine-absorb_brain_feedback",
             "func_name": "absorb_brain_feedback",
             "signature": "(self, backward_file=\"verified_backward.json\")",
+            "provenance_repo": "retina",
             "file": "retina_engine.py",
             "line_start": 37,
             "nature": "🛡️ GUARDED"
@@ -163,6 +248,7 @@
             "canonical_id": "fn-retina-conv_cell-__init__",
             "func_name": "__init__",
             "signature": "(self, cell_id, filter_size=2, storage_dir=\"synapses\")",
+            "provenance_repo": "retina",
             "file": "cells/conv_cell.py",
             "line_start": 6,
             "nature": "🛡️ GUARDED"
@@ -171,6 +257,7 @@
             "canonical_id": "fn-retina-conv_cell-load_self",
             "func_name": "load_self",
             "signature": "(self)",
+            "provenance_repo": "retina",
             "file": "cells/conv_cell.py",
             "line_start": 19,
             "nature": "🛡️ GUARDED"
@@ -179,6 +266,7 @@
             "canonical_id": "fn-retina-conv_cell-scan_patch",
             "func_name": "scan_patch",
             "signature": "(self, patch)",
+            "provenance_repo": "retina",
             "file": "cells/conv_cell.py",
             "line_start": 34,
             "nature": "⚙️ NORMAL"
@@ -187,6 +275,7 @@
             "canonical_id": "fn-retina-conv_cell-update_from_brain_gradient",
             "func_name": "update_from_brain_gradient",
             "signature": "(self, grad, lr=0.1)",
+            "provenance_repo": "retina",
             "file": "cells/conv_cell.py",
             "line_start": 42,
             "nature": "⚙️ NORMAL"
@@ -195,6 +284,7 @@
             "canonical_id": "fn-retina-conv_cell-save_self",
             "func_name": "save_self",
             "signature": "(self)",
+            "provenance_repo": "retina",
             "file": "cells/conv_cell.py",
             "line_start": 50,
             "nature": "⚙️ NORMAL"
@@ -203,6 +293,7 @@
             "canonical_id": "fn-retina-mesh_receptor-search_global_brain_mesh",
             "func_name": "search_global_brain_mesh",
             "signature": "()",
+            "provenance_repo": "retina",
             "file": "receptors/mesh_receptor.py",
             "line_start": 10,
             "nature": "🛡️ GUARDED"
@@ -211,6 +302,7 @@
             "canonical_id": "fn-retina-contract_receptor-verify_and_purify",
             "func_name": "verify_and_purify",
             "signature": "()",
+            "provenance_repo": "retina",
             "file": "receptors/contract_receptor.py",
             "line_start": 7,
             "nature": "🛡️ GUARDED"
@@ -219,6 +311,7 @@
             "canonical_id": "fn-retina-cascade_receptor-try_fetch",
             "func_name": "try_fetch",
             "signature": "(target_owner)",
+            "provenance_repo": "retina",
             "file": "receptors/cascade_receptor.py",
             "line_start": 10,
             "nature": "⚙️ NORMAL"
@@ -227,6 +320,7 @@
             "canonical_id": "fn-retina-cascade_receptor-main",
             "func_name": "main",
             "signature": "()",
+            "provenance_repo": "retina",
             "file": "receptors/cascade_receptor.py",
             "line_start": 21,
             "nature": "⚙️ NORMAL"
