@@ -1,0 +1,23 @@
+{
+    "retina": {
+        "title": "👁️ COMBO VÕNG MẠC (Mắt Thị Giác)",
+        "role": "SENSORY_INPUT",
+        "core_cell": "cells/conv_cell.py",
+        "engine": "retina_engine.py",
+        "signal_out": "synapse_forward.json"
+    },
+    "neuron": {
+        "title": "🧠 COMBO NƠ-RON (Não Suy Tưởng)",
+        "role": "CORTICAL_COMPUTE",
+        "core_cell": "cells/integrate_cell.py",
+        "engine": "kernel.py",
+        "signal_out": "synapse_output.json"
+    },
+    "homeostasis": {
+        "title": "⚖️ COMBO NỘI MÔ (Cân Bằng Toàn Hệ)",
+        "role": "SYSTEM_ARBITER",
+        "core_cell": "cells/buffer_cell.py",
+        "engine": "arbiter_engine.py",
+        "signal_out": "balance_signal.json"
+    }
+}

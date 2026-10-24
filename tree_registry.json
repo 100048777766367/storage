@@ -1,0 +1,35 @@
+{
+    "build_systems": {
+        "Cargo.toml": "🦀 Rust (Cargo Engine)",
+        "go.mod": "🐹 Go (Go Modules)",
+        "pom.xml": "☕ Java (Maven Project)",
+        "build.gradle": "☕ Java/Kotlin (Gradle)",
+        "package.json": "🟨 JavaScript/TypeScript (Node Ecosystem)",
+        "CMakeLists.txt": "⚙️ C/C++ (CMake)",
+        "Makefile": "⚙️ C/C++ (GNU Make)",
+        "composer.json": "🐘 PHP (Composer)",
+        "requirements.txt": "🐍 Python (Pip)",
+        "pyproject.toml": "🐍 Python (Modern PEP)",
+        "Dockerfile": "🐳 Docker Containerized"
+    },
+    "file_badges": {
+        ".py": "🐍 Python",
+        ".c": "⚙️ C",
+        ".cpp": "⚙️ C++",
+        ".java": "☕ Java",
+        ".cs": "🔷 C#",
+        ".go": "🐹 Go",
+        ".rs": "🦀 Rust",
+        ".php": "🐘 PHP",
+        ".js": "🟨 JS",
+        ".ts": "🟦 TS",
+        ".sh": "🐚 Shell",
+        ".sql": "🗄️ SQL",
+        ".json": "📋 JSON",
+        ".yaml": "📋 YAML",
+        ".yml": "📋 YAML",
+        ".md": "📝 Markdown",
+        ".gitkeep": "🔒 Gitkeep",
+        "dockerfile": "🐳 Docker"
+    }
+}

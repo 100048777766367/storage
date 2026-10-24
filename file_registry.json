@@ -1,0 +1,29 @@
+{
+    "extensions": {
+        ".py": "🐍 Python",
+        ".c": "⚙️ C",
+        ".cpp": "⚙️ C++",
+        ".java": "☕ Java",
+        ".cs": "🔷 C#",
+        ".go": "🐹 Go",
+        ".rs": "🦀 Rust",
+        ".php": "🐘 PHP",
+        ".js": "🟨 JavaScript",
+        ".ts": "🟦 TypeScript",
+        ".sh": "🐚 Shell Script",
+        ".sql": "🗄️ SQL Schema",
+        ".json": "📋 JSON Data",
+        ".yaml": "📋 YAML Config",
+        ".md": "📝 Markdown Document",
+        "dockerfile": "🐳 Dockerfile"
+    },
+    "role_rules": {
+        "engine": "⚙️ ĐỘNG CƠ HẠT NHÂN (Execution Engine)",
+        "kernel": "⚙️ ĐỘNG CƠ HẠT NHÂN (Compute Kernel)",
+        "contract": "📜 HIẾN CHƯƠNG / PHÁP LUẬT (Contract Root)",
+        "forward": "⚡ GIAO CẢM / PHÁT XUNG (Synapse Forward)",
+        "passport": "🛂 HỘ CHIẾU DÒNG HỌ (Bio-Passport)",
+        "receptor": "📡 THỤ CẢM THEO DÕI (Sensory Input)",
+        "cell": "🧬 TẾ BÀO TÍNH TOÁN (Core Processing Cell)"
+    }
+}

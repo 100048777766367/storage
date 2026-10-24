@@ -1,0 +1,59 @@
+{
+    "c_cpp": {
+        "exts": [
+            "c",
+            "cpp",
+            "cc",
+            "h",
+            "hpp"
+        ],
+        "lang": "⚙️ C/C++",
+        "class": "^\\s*(?:class|struct)\\s+([A-Za-z0-9_]+)",
+        "func": "^\\s*(?:[A-Za-z0-9_<>\\*&:]+\\s+)+([A-Za-z0-9_:]+)\\s*\\(([^;]*?)\\)\\s*(?:const)?\\s*\\{"
+    },
+    "java_cs": {
+        "exts": [
+            "java",
+            "cs"
+        ],
+        "lang": "☕ Java/C#",
+        "class": "^\\s*(?:class|interface)\\s+([A-Za-z0-9_]+)",
+        "func": "^\\s*(?:public|private|protected|\\s)+[\\w<>\\[\\],\\s]+\\s+([A-Za-z0-9_]+)\\s*\\(([^;]*?)\\)\\s*\\{"
+    },
+    "python": {
+        "exts": [
+            "py",
+            "pyw"
+        ],
+        "lang": "🐍 Python",
+        "class": "^\\s*class\\s+([A-Za-z0-9_]+)",
+        "func": "^\\s*(?:async\\s+)?def\\s+([A-Za-z0-9_]+)\\s*\\((.*?)\\):"
+    },
+    "go": {
+        "exts": [
+            "go"
+        ],
+        "lang": "🐹 Go",
+        "class": "^\\s*type\\s+([A-Za-z0-9_]+)\\s+struct",
+        "func": "^\\s*func\\s+(?:\\([^)]+\\)\\s+)?([A-Za-z0-9_]+)\\s*\\((.*?)\\)"
+    },
+    "rust": {
+        "exts": [
+            "rs"
+        ],
+        "lang": "🦀 Rust",
+        "class": "^\\s*(?:pub\\s+)?struct\\s+([A-Za-z0-9_]+)",
+        "func": "^\\s*(?:pub\\s+)?fn\\s+([A-Za-z0-9_]+)\\s*\\((.*?)\\)"
+    },
+    "js_ts": {
+        "exts": [
+            "js",
+            "ts",
+            "jsx",
+            "tsx"
+        ],
+        "lang": "🟨 JS/TS",
+        "class": "^\\s*class\\s+([A-Za-z0-9_]+)",
+        "func": "^\\s*function\\s+([A-Za-z0-9_]+)\\s*\\((.*?)\\)"
+    }
+}

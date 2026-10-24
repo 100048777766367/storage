@@ -1,0 +1,14 @@
+{
+    "cells": "🧬 MÔ SINH HỌC: Tế Bào Gốc & Đơn Vị Xử Lý Cơ Sở",
+    "receptors": "📡 MÔ SINH HỌC: Thụ Cảm Thể & Cổng Thu Nhận I/O",
+    "synapses": "⚡ MÔ SINH HỌC: Khe Tiếp Hợp & Trọng Số Giao Cảm",
+    "cortex": "🧠 MÔ SINH HỌC: Vỏ Não & Hạt Nhân Logic Cốt Lõi",
+    "organs": "🛡️ MÔ SINH HỌC: Cơ Quan Chức Năng & Lá Chắn Bảo Vệ",
+    "actuators": "🦾 MÔ SINH HỌC: Cơ Quan Tác Động & Phản Hồi Motor",
+    "dist": "📦 MÔ SINH HỌC: Khoang Phân Phối & Phát Hành",
+    "workflows": "🤖 HẠ TẦNG CI/CD: Quy Trình Tự Động Hóa Vận Hành",
+    ".github": "⚙️ HẠ TẦNG NỀN TẢNG: Cấu Hình Hệ Thống GitHub",
+    "src": "💻 MÃ NGUỒN CỐT LÕI (Core Source)",
+    "include": "⚙️ GIAO DIỆN NATIVE (C/C++ Headers)",
+    "tests": "🧪 TEST SUITE (Kiểm Thử)"
+}

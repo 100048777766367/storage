@@ -1,0 +1,9 @@
+{
+    "contract_id": "bodhi.storage.v1",
+    "identity": "100048777766367/storage",
+    "archetype": "DATA_FOUNDRY",
+    "clan": "VAULT_LINEAGE",
+    "role": "TAGGED_ASSET_STORAGE_VAULT",
+    "partner_dissector": "100048777766367/open",
+    "io_specification": "I/O (PERSISTENT_KNOWLEDGE_BASE_9_REGISTRIES)"
+}

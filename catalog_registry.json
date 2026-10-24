@@ -1,0 +1,61 @@
+{
+    "SHELF_ENGINE": {
+        "title": "⚙️ GIAN HÀNG ĐỘNG CƠ HẠT NHÂN",
+        "keywords": [
+            "engine",
+            "kernel",
+            "main.py"
+        ]
+    },
+    "SHELF_RECEPTORS": {
+        "title": "📡 GIAN HÀNG THỤ CẢM",
+        "keywords": [
+            "receptor",
+            "sensor",
+            "cascade",
+            "mesh"
+        ]
+    },
+    "SHELF_CELLS": {
+        "title": "🧬 GIAN HÀNG TẾ BÀO",
+        "keywords": [
+            "cell",
+            "conv_cell",
+            "unit"
+        ]
+    },
+    "SHELF_SYNAPSES": {
+        "title": "⚡ GIAN HÀNG GIAO CẢM & TRỌNG SỐ",
+        "keywords": [
+            "synapse",
+            "k_horiz",
+            "k_vert",
+            "forward"
+        ]
+    },
+    "SHELF_CONTRACTS": {
+        "title": "📜 GIAN HÀNG HIẾN CHƯƠNG & BẢO HỘ",
+        "keywords": [
+            "contract",
+            "passport",
+            "state"
+        ]
+    },
+    "SHELF_INFRA": {
+        "title": "🤖 GIAN HÀNG HẠ TẦNG & TỰ HÀNH",
+        "keywords": [
+            "dockerfile",
+            "makefile",
+            "workflow",
+            "dependabot"
+        ]
+    },
+    "SHELF_DOCS": {
+        "title": "📝 GIAN HÀNG TÀI LIỆU & BẢO TÀNG",
+        "keywords": [
+            "readme",
+            ".md",
+            ".txt"
+        ]
+    }
+}

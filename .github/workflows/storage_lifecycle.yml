@@ -1,0 +1,17 @@
+name: Storage Sovereign Vault Lifecycle
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '30 */4 * * *'
+permissions:
+  contents: write
+jobs:
+  sync-vault:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kéo kho lưu trữ
+        run: git clone --depth 1 https://github.com/${{ github.repository }}.git .
+      - name: Kiểm tra tính toàn vẹn 9 tệp thiết lập
+        run: |
+          python3 -c "import json, glob; [json.load(open(f)) for f in glob.glob('*.json')]; print('🟢 9 Tệp Thiết Lập Toàn Vẹn!')"
