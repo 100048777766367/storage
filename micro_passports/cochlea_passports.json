@@ -1,0 +1,308 @@
+{
+    "provenance_header": {
+        "tags": [
+            "#CHỨNG_CHỈ_XUẤT_XỨ",
+            "#PROVENANCE_IDENTITY"
+        ],
+        "repo_name": "cochlea",
+        "canonical_id": "cochlea-core-g0-00",
+        "root_ancestor": "cochlea",
+        "branch": "core",
+        "generation": "g0"
+    },
+    "tier_2_directories": [
+        {
+            "canonical_id": "dir-cochlea-.git-g0",
+            "path": ".git",
+            "depth": 1,
+            "file_count": 6,
+            "role_label": "📂 THƯ MỤC TÙY BIẾN / KINH NGHIỆM ĐỘNG"
+        },
+        {
+            "canonical_id": "dir-cochlea-synapses-g0",
+            "path": "synapses",
+            "depth": 1,
+            "file_count": 3,
+            "role_label": "⚡ MÔ SINH HỌC: Khe Tiếp Hợp & Trọng Số Giao Cảm"
+        },
+        {
+            "canonical_id": "dir-cochlea-receptors-g0",
+            "path": "receptors",
+            "depth": 1,
+            "file_count": 3,
+            "role_label": "📡 MÔ SINH HỌC: Thụ Cảm Thể & Cổng Thu Nhận I/O"
+        },
+        {
+            "canonical_id": "dir-cochlea-cells-g0",
+            "path": "cells",
+            "depth": 1,
+            "file_count": 1,
+            "role_label": "🧬 MÔ SINH HỌC: Tế Bào Gốc & Đơn Vị Xử Lý Cơ Sở"
+        },
+        {
+            "canonical_id": "dir-cochlea-.github-g0",
+            "path": ".github",
+            "depth": 1,
+            "file_count": 1,
+            "role_label": "⚙️ HẠ TẦNG NỀN TẢNG: Cấu Hình Hệ Thống GitHub"
+        }
+    ],
+    "tier_3_files": [
+        {
+            "canonical_id": "file-cochlea-cochlea_engine_py-g0",
+            "path": "cochlea_engine.py",
+            "hash": "44c2353b525e",
+            "size_bytes": 2606,
+            "language_tag": "🐍 Python",
+            "role_tag": "⚙️ ĐỘNG CƠ HẠT NHÂN (Execution Engine)",
+            "biological_tags": [
+                "#TỆP_SÁNG_TẠO_TÙY_BIẾN",
+                "#MÃ_THỰC_THI_ĐỘNG"
+            ]
+        },
+        {
+            "canonical_id": "file-cochlea-Dockerfile-g0",
+            "path": "Dockerfile",
+            "hash": "e5fa0f06cbcf",
+            "size_bytes": 201,
+            "language_tag": "🐳 Dockerfile",
+            "role_tag": "Trụ cột khuôn mẫu (Khóa cứng)",
+            "biological_tags": [
+                "#MÔI_TRƯỜNG_CONTAINER",
+                "#MẪU_SỐ_CHUNG_3_14"
+            ]
+        },
+        {
+            "canonical_id": "file-cochlea-synapse_forward_json-g0",
+            "path": "synapse_forward.json",
+            "hash": "c16226ddd433",
+            "size_bytes": 146,
+            "language_tag": "📋 JSON Data",
+            "role_tag": "Trụ cột khuôn mẫu (Khóa cứng)",
+            "biological_tags": [
+                "#SÓNG_GIAO_CẢM",
+                "#XUNG_TÍN_HIỆU_I_O"
+            ]
+        },
+        {
+            "canonical_id": "file-cochlea-README_md-g0",
+            "path": "README.md",
+            "hash": "7c70678ad8c0",
+            "size_bytes": 9,
+            "language_tag": "📝 Markdown Document",
+            "role_tag": "Trụ cột khuôn mẫu (Khóa cứng)",
+            "biological_tags": [
+                "#TUYÊN_NGÔN_SỨ_MỆNH",
+                "#TÀI_LIỆU_BẢO_TÀNG"
+            ]
+        },
+        {
+            "canonical_id": "file-cochlea-synapses__gitkeep-g0",
+            "path": "synapses/.gitkeep",
+            "hash": "01ba4719c80b",
+            "size_bytes": 1,
+            "language_tag": "📄 File Không Đuôi",
+            "role_tag": "Thành phần mã nguồn động",
+            "biological_tags": [
+                "#TỆP_SÁNG_TẠO_TÙY_BIẾN"
+            ]
+        },
+        {
+            "canonical_id": "file-cochlea-synapses_k_bass_json-g0",
+            "path": "synapses/k_bass.json",
+            "hash": "f15ad8fd94b8",
+            "size_bytes": 136,
+            "language_tag": "📋 JSON Data",
+            "role_tag": "Thành phần mã nguồn động",
+            "biological_tags": [
+                "#TỆP_SÁNG_TẠO_TÙY_BIẾN",
+                "#DỮ_LIỆU_TRỌNG_SỐ"
+            ]
+        },
+        {
+            "canonical_id": "file-cochlea-synapses_k_treble_json-g0",
+            "path": "synapses/k_treble.json",
+            "hash": "9c5d7e0f13a8",
+            "size_bytes": 135,
+            "language_tag": "📋 JSON Data",
+            "role_tag": "Thành phần mã nguồn động",
+            "biological_tags": [
+                "#TỆP_SÁNG_TẠO_TÙY_BIẾN",
+                "#DỮ_LIỆU_TRỌNG_SỐ"
+            ]
+        },
+        {
+            "canonical_id": "file-cochlea-receptors_mesh_receptor_py-g0",
+            "path": "receptors/mesh_receptor.py",
+            "hash": "285fc11a578e",
+            "size_bytes": 3002,
+            "language_tag": "🐍 Python",
+            "role_tag": "📡 THỤ CẢM THEO DÕI (Sensory Input)",
+            "biological_tags": [
+                "#TỆP_SÁNG_TẠO_TÙY_BIẾN",
+                "#MÃ_THỰC_THI_ĐỘNG"
+            ]
+        },
+        {
+            "canonical_id": "file-cochlea-receptors_contract_receptor_py-g0",
+            "path": "receptors/contract_receptor.py",
+            "hash": "2743f768bbdc",
+            "size_bytes": 1242,
+            "language_tag": "🐍 Python",
+            "role_tag": "📜 HIẾN CHƯƠNG / PHÁP LUẬT (Contract Root)",
+            "biological_tags": [
+                "#TỆP_SÁNG_TẠO_TÙY_BIẾN",
+                "#MÃ_THỰC_THI_ĐỘNG"
+            ]
+        },
+        {
+            "canonical_id": "file-cochlea-receptors_cascade_receptor_py-g0",
+            "path": "receptors/cascade_receptor.py",
+            "hash": "9a0ea1a75755",
+            "size_bytes": 1053,
+            "language_tag": "🐍 Python",
+            "role_tag": "📡 THỤ CẢM THEO DÕI (Sensory Input)",
+            "biological_tags": [
+                "#TỆP_SÁNG_TẠO_TÙY_BIẾN",
+                "#MÃ_THỰC_THI_ĐỘNG"
+            ]
+        },
+        {
+            "canonical_id": "file-cochlea-cells_hair_cell_py-g0",
+            "path": "cells/hair_cell.py",
+            "hash": "2e5f862087df",
+            "size_bytes": 2515,
+            "language_tag": "🐍 Python",
+            "role_tag": "🧬 TẾ BÀO TÍNH TOÁN (Core Processing Cell)",
+            "biological_tags": [
+                "#TỆP_SÁNG_TẠO_TÙY_BIẾN",
+                "#MÃ_THỰC_THI_ĐỘNG"
+            ]
+        }
+    ],
+    "tier_4_classes": [
+        {
+            "canonical_id": "class-cochlea-cochlea_engine-CochleaEngine",
+            "class_name": "CochleaEngine",
+            "file": "cochlea_engine.py",
+            "line_start": 6
+        },
+        {
+            "canonical_id": "class-cochlea-hair_cell-HairCell",
+            "class_name": "HairCell",
+            "file": "cells/hair_cell.py",
+            "line_start": 5
+        }
+    ],
+    "tier_5_functions": [
+        {
+            "canonical_id": "fn-cochlea-cochlea_engine-__init__",
+            "func_name": "__init__",
+            "file": "cochlea_engine.py",
+            "line_start": 7,
+            "biological_tags": [
+                "#NORMAL_THỰC_THI"
+            ]
+        },
+        {
+            "canonical_id": "fn-cochlea-cochlea_engine-listen_and_emit",
+            "func_name": "listen_and_emit",
+            "file": "cochlea_engine.py",
+            "line_start": 13,
+            "biological_tags": [
+                "#NORMAL_THỰC_THI",
+                "#TÁC_TỬ_ACTUATOR"
+            ]
+        },
+        {
+            "canonical_id": "fn-cochlea-cochlea_engine-absorb_brain_feedback",
+            "func_name": "absorb_brain_feedback",
+            "file": "cochlea_engine.py",
+            "line_start": 35,
+            "biological_tags": [
+                "#NORMAL_THỰC_THI"
+            ]
+        },
+        {
+            "canonical_id": "fn-cochlea-mesh_receptor-search_global_brain_mesh",
+            "func_name": "search_global_brain_mesh",
+            "file": "receptors/mesh_receptor.py",
+            "line_start": 10,
+            "biological_tags": [
+                "#NORMAL_THỰC_THI"
+            ]
+        },
+        {
+            "canonical_id": "fn-cochlea-contract_receptor-verify_and_purify",
+            "func_name": "verify_and_purify",
+            "file": "receptors/contract_receptor.py",
+            "line_start": 7,
+            "biological_tags": [
+                "#NORMAL_THỰC_THI"
+            ]
+        },
+        {
+            "canonical_id": "fn-cochlea-cascade_receptor-try_fetch",
+            "func_name": "try_fetch",
+            "file": "receptors/cascade_receptor.py",
+            "line_start": 10,
+            "biological_tags": [
+                "#NORMAL_THỰC_THI"
+            ]
+        },
+        {
+            "canonical_id": "fn-cochlea-cascade_receptor-main",
+            "func_name": "main",
+            "file": "receptors/cascade_receptor.py",
+            "line_start": 21,
+            "biological_tags": [
+                "#NORMAL_THỰC_THI"
+            ]
+        },
+        {
+            "canonical_id": "fn-cochlea-hair_cell-__init__",
+            "func_name": "__init__",
+            "file": "cells/hair_cell.py",
+            "line_start": 6,
+            "biological_tags": [
+                "#NORMAL_THỰC_THI"
+            ]
+        },
+        {
+            "canonical_id": "fn-cochlea-hair_cell-load_self",
+            "func_name": "load_self",
+            "file": "cells/hair_cell.py",
+            "line_start": 19,
+            "biological_tags": [
+                "#NORMAL_THỰC_THI"
+            ]
+        },
+        {
+            "canonical_id": "fn-cochlea-hair_cell-scan_wave",
+            "func_name": "scan_wave",
+            "file": "cells/hair_cell.py",
+            "line_start": 35,
+            "biological_tags": [
+                "#NORMAL_THỰC_THI"
+            ]
+        },
+        {
+            "canonical_id": "fn-cochlea-hair_cell-tune_from_brain_gradient",
+            "func_name": "tune_from_brain_gradient",
+            "file": "cells/hair_cell.py",
+            "line_start": 57,
+            "biological_tags": [
+                "#NORMAL_THỰC_THI"
+            ]
+        },
+        {
+            "canonical_id": "fn-cochlea-hair_cell-save_self",
+            "func_name": "save_self",
+            "file": "cells/hair_cell.py",
+            "line_start": 63,
+            "biological_tags": [
+                "#NORMAL_THỰC_THI"
+            ]
+        }
+    ]
+}
