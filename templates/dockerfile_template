@@ -1,0 +1,6 @@
+FROM python:3.14-slim
+WORKDIR /app
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+COPY . .
+CMD ["sh", "-c", "if [ -f kernel.py ]; then python -B kernel.py; elif [ -f {repo_name}_engine.py ]; then python -B {repo_name}_engine.py; elif [ -f engine.py ]; then python -B engine.py; else python -B main.py; fi"]
