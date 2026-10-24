@@ -1,0 +1,38 @@
+{
+    "$schema": "https://bodhi.network/v1/architecture-passport-schema.json",
+    "arch_stamp": "STAMP-ARCH-CORTICAL-MESH-G2",
+    "canonical_id": "arch-cortical_mesh-g2-00",
+    "name": "Kiến Trúc Lưới Vỏ Não Tự Trị Bodhi Thế Hệ G2",
+    "lineage": {
+        "root_ancestor": "contract",
+        "architecture_family": "CORTICAL_SWARM",
+        "generation": "g2",
+        "variant_seed": "00",
+        "version": "v2.5.0-CYBERNETIC-CLOSED-LOOP"
+    },
+    "morphological_compartments": {
+        "cells": "Đơn vị tính toán tế bào cơ sở (Cellular processing units)",
+        "receptors": "Thụ cảm thể thu nhận tín hiệu thế giới bên ngoài (Afferent I/O)",
+        "cortex": "Hạt nhân tư duy, suy tưởng & giải thuật logic (Cognitive kernel)",
+        "actuators": "Cơ quan tác động, phản hồi ra môi trường (Efferent motor)",
+        "organs": "Cơ quan chức năng bảo hộ, khiên phòng hộ invariant (Guards)",
+        "synapses": "Khoang giao cảm, lưu nhịp tim state.json và hộ chiếu bio_passport",
+        "dist": "Khoang phân phối, đóng gói phát hành thành phẩm"
+    },
+    "industrial_rules": {
+        "mandatory_template_files": 10,
+        "conveyor_mechanics": {
+            "motor_orchestrator": "pilot",
+            "pallet_carrier": "capsule",
+            "junction_diverter": "switch",
+            "isolation_clinic": "quarantine"
+        },
+        "runtime_standard": {
+            "python": "3.14",
+            "actions_setup": "v7",
+            "container_base": "python:3.14-slim"
+        },
+        "mathematical_conservation": "(A ^ B) ^ B == A",
+        "zero_repo_pollution": true
+    }
+}
