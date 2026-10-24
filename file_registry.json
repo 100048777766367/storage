@@ -25,5 +25,48 @@
         "passport": "🛂 HỘ CHIẾU DÒNG HỌ (Bio-Passport)",
         "receptor": "📡 THỤ CẢM THEO DÕI (Sensory Input)",
         "cell": "🧬 TẾ BÀO TÍNH TOÁN (Core Processing Cell)"
+    },
+    "blueprint_reference": "blueprint_matrix.json",
+    "blueprint_tags": {
+        "contract.json": [
+            "#HIẾN_ƯỚC_GỐC",
+            "#PHÁP_LÝ_NÚT_MẠNG"
+        ],
+        "synapses/bio_passport.json": [
+            "#HỘ_CHIẾU_DÒNG_HỌ",
+            "#CĂN_CƯỚC_PHẢ_HỆ"
+        ],
+        "synapses/state.json": [
+            "#SỔ_CÁI_KỶ_NGUYÊN",
+            "#NHỊP_TIM_LƯỢNG_TỬ"
+        ],
+        "synapse_forward.json": [
+            "#SÓNG_GIAO_CẢM",
+            "#XUNG_TÍN_HIỆU_I_O"
+        ],
+        "engine.py": [
+            "#HẠT_NHÂN_ĐỘNG_CƠ",
+            "#TRÁI_TIM_TỰ_TRỊ"
+        ],
+        ".github/workflows/node.yml": [
+            "#TRỤC_CI_CD_TỰ_HÀNH",
+            "#GIT_BỌC_THÉP_CHỐNG_128"
+        ],
+        ".github/dependabot.yml": [
+            "#BẢO_TRÌ_TỰ_ĐỘNG",
+            "#VÁ_LỖ_HỔNG_HÀNG_TUẦN"
+        ],
+        "Dockerfile": [
+            "#MÔI_TRƯỜNG_CONTAINER",
+            "#MẪU_SỐ_CHUNG_3_14"
+        ],
+        ".gitignore": [
+            "#LÁ_CHẮN_CHỐNG_RÁC",
+            "#POKA_YOKE_BYTECODE"
+        ],
+        "README.md": [
+            "#TUYÊN_NGÔN_SỨ_MỆNH",
+            "#TÀI_LIỆU_BẢO_TÀNG"
+        ]
     }
 }
